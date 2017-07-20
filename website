@@ -1,0 +1,194 @@
+<html>
+<body>
+<h1 align="center" style="font-size:50px;">Malaika Shah</h1>
+</body>
+<head>
+<style>
+h2 {
+    position:absolute;
+    left: 100px;
+    top: 100px;
+    font-family: Georgia;
+  }
+</style>
+</head>
+<body>
+<h2 style="font-size:20px;">About Me</h2>
+</body>
+<head>
+<style>
+h3 {
+    position:absolute;
+    left: 100px;
+    bottom: 280px;
+    font-family: Georgia;
+}
+</style>
+</head>
+<body>
+<h3 style="font-size:20px;">My Links</h3>
+</body>
+<head>
+<style>
+h4 {
+    position:absolute;
+    left: 100px;
+    top: 380px;
+    font-family: Georgia;
+  }
+</style>
+</head>
+<body>
+<h4 style="font-size:20px;">My Projects</h4>
+</body>
+<head>
+<style>
+h5 {
+    position:absolute;
+    right: 100px;
+    top: 100px;
+    font-family: Georgia;
+}
+</style>
+</head>
+<body>
+<h5 style="font-size:20px;">Blog</h5>
+</body>
+<head>
+<style>
+#guide {
+    position:absolute;
+    right: 100px;
+    bottom: 260px;
+    font-family: Georgia;
+}
+</style>
+</head>
+<body>
+<h6 id="guide" style="font-size:20px;">Guides</h6>
+</body>
+<head>
+<style>
+#AestheticPosts {
+    position:absolute;
+    right: 100px;
+    top: 380px;
+    font-family: Georgia;
+}
+</style>
+</head>
+<body>
+<h6 id="AestheticPosts" style="font-size:20px;">Aesthetic Posts</h6>
+</body>
+<head>
+<style>
+body {
+    background-color: #993300;
+}
+</style>
+</head>
+<head>
+<style>
+body {
+      color: #FFFFFF;
+}
+</style>
+</head>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+  * {box-sizing:border-box}
+  body {font-family: Verdana,sans-serif;}
+  .mySlides {display:none}
+
+  /* Slideshow container */
+  .slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+  }
+    .active {
+    background-color: #717171;
+  }
+
+  /* Fading animation */
+  .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+
+  @-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+
+  /* On smaller screens, decrease text size */
+  @media only screen and (max-width: 300px) {
+    .text {font-size: 11px}
+  }
+  </style>
+  </head>
+  <body>
+
+<center><div class="slideshow-container">
+
+  <div class="mySlides fade">
+    <img src="IMG_9514.JPG" style="width:40%">
+  </div>
+
+  <div class="mySlides fade">
+    <img src="IMG_9515.JPG" style="width:40%">
+  </div>
+
+  <div class="mySlides fade">
+    <img src="IMG_9516.JPG" style="width:40%" "length:20%">
+  </div>
+
+  <div class="mySlides fade">
+    <img src="IMG_9517.JPG" style="width:40%" rotate="90 degrees">
+  </div>
+
+  </div>
+  <br>
+</center>
+
+  <script>
+  var slideIndex = 0;
+  showSlides();
+
+  function showSlides() {
+      var i;
+      var slides = document.getElementsByClassName("mySlides");
+      for (i = 0; i < slides.length; i++) {
+         slides[i].style.display = "none";
+      }
+      slideIndex++;
+      if (slideIndex> slides.length) {slideIndex = 1}
+      slides[slideIndex-1].style.display = "block";
+      setTimeout(showSlides, 2000);
+  }
+  </script>
+  </body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
